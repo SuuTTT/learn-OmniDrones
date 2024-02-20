@@ -29,5 +29,5 @@ wandb:
 
 defaults:
   - task: Hover
-  - algo: mappo
+  - algo: dqn
   - _self_

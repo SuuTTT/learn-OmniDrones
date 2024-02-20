@@ -6,7 +6,8 @@ defaults:
   - /base/sim_base@_here_
 
 env:
-  num_envs: 8192
+  #num_envs: 8192
+  num_envs: 4
 
 drone_model: Firefly
 force_sensor: false
