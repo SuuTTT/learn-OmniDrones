@@ -25,7 +25,7 @@ wandb:
   run_name: ${oc.select:..task.name,test}-${oc.select:..algo.name,none}
   job_type: train
   entity: sudingli21 
-  project: omnidrones
+  project: omnidrones-marl
   mode: online # set to 'disabled' when debugging locally
   run_id: 
   monitor_gym: True
